@@ -53,12 +53,16 @@
 	max-width: 320px;
 	text-align: left;
 }
+.scrollyteller .step .flourish-embed-iframe {
+	margin: 7px 0 4px 0;
+}
 .scrollyteller .step-list .scroll-more {
 	margin-top: 7px;
 	text-align: center;
 }
 .scrollyteller .step:first-of-type {
-	margin-top: -25%;
+	margin-top: -75%;
+
 }
 .scrollyteller .step:last-of-type {
 	margin-bottom: 0;
@@ -66,7 +70,7 @@
 }
 
 .scrollyteller .step > div {
-	background: rgba(255,255,255,0.8);
+	background: rgba(255,255,255,1);
 	padding: 5px;
 }
 
@@ -86,8 +90,7 @@
 
 @media only screen and (min-width: 600px) {
     /* Style adjustments for viewports that meet the condition */
-    .wrapper {
-    	/*display: flex;*/
-    	/*justify-content: space-between;*/
-    }
+    .scrollyteller .step:first-of-type {
+		margin-top: -65%;
+	}
 }
