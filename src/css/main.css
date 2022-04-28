@@ -1,7 +1,12 @@
 /* FONTS */
 #app .scroll-more {
 	display: block;
-	font-family: BentonSansCond-BoldItalic;
+	font-family: BentonSansCond-BoldItalic, bold;
+}
+
+#app .benton-italic {
+	font-family: BentonSansCond-RegItalic, italic;
+	font-size: 0.9rem;
 }
 
 /* COLOURS */
@@ -91,6 +96,6 @@
 @media only screen and (min-width: 600px) {
     /* Style adjustments for viewports that meet the condition */
     .scrollyteller .step:first-of-type {
-		margin-top: -65%;
+		margin-top: -70%;
 	}
 }
